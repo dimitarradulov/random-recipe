@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$white: #ffffff;
+
+$theme-colors: (
+  'light': #cbdaf1,
+  'dark': #131217,
+  'primary': #0137ba,
+  'secondary': #ee190d,
+  'info': #f4368f,
+  'success': #01a15d,
+  'warning': #e1ca01,
+  'danger': #ef1b00,
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
