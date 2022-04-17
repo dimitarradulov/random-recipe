@@ -68,7 +68,7 @@ const mealTemplate = (data, ingredientsAndMeasurementsArr = []) => {
     </div>
   </div>
   <div class="row my-5">
-    <div class="col-4">
+    <div class="col-sm-12 col-md-4">
       <h4 class="mb-4 border-bottom pb-2">${
         ingredientsAndMeasurementsArr.length
       } Ingredients</h4>
@@ -80,7 +80,7 @@ const mealTemplate = (data, ingredientsAndMeasurementsArr = []) => {
           .join('')}
       </ul>
     </div>
-    <div class="col-8">
+    <div class="col-sm-12 col-md-8">
       <h4 class="mb-4 border-bottom pb-2">Instructions</h4>
       <p>${data.strInstructions}</p>
     </div>
