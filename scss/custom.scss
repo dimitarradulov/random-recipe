@@ -15,4 +15,13 @@ $theme-colors: (
   'danger': #ef1b00,
 );
 
+.ingredients {
+  list-style: none;
+  padding: 0;
+}
+
+iframe {
+  max-width: 100%;
+}
+
 @import '../node_modules/bootstrap/scss/bootstrap';
