@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Meal</title>
+    <link rel="stylesheet" href="../node_modules/spin.js/spin.css" />
     <link rel="stylesheet" href="../scss/custom.scss" />
+    <script
+      defer
+      src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"
+    ></script>
+    <script
+      defer
+      src="../node_modules/@fortawesome/fontawesome-free/js/solid.js"
+    ></script>
+    <script
+      defer
+      src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"
+    ></script>
     <script type="module" src="./index.js"></script>
   </head>
   <body>
@@ -13,12 +26,79 @@
       class="min-vh-100 container d-flex flex-column justify-content-center align-items-center"
     >
       <div class="text-center mb-5">
-        <h1 class="fw-bold mb-3">Feeling Hungry?</h1>
-        <button class="btn btn-primary text-uppercase fw-bold" id="get-recipe">
+        <h1 class="fw-bold mb-3">
+          You are not you when you are hungry! 🦁
+          <i class="fa-thin fa-blender"></i>
+        </h1>
+        <h2 class="text-muted mb-4 fs-4">
+          Click the button below and make yourself an amazing meal
+        </h2>
+        <button
+          class="btn btn-primary btn-lg text-uppercase fw-bold"
+          id="get-recipe"
+        >
           Get a meal recipe 🍔
         </button>
       </div>
-      <div id="recipe-container"></div>
+      <div class="p-2 mb-4 position-relative" id="recipe-container">
+        <!-- <div class="row">
+          <h3 class="fs-2 fw-bold">Crusty Apple Pie</h3>
+          <div class="d-flex">
+            <p class="border-end pe-2 me-2">
+              <span class="fw-bold">Category:</span> Pudding
+            </p>
+            <p class="border-end pe-2 me-2">
+              <span class="fw-bold">Area:</span> British
+            </p>
+            <p><span class="fw-bold">Tags:</span> Pudding, Crusty, Nice</p>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-4">
+            <h4 class="mb-4 border-bottom pb-2">5 Ingredients</h4>
+            <ul class="ingredients">
+              <li class="mb-3">
+                <i class="fa-solid fa-basket-shopping me-2"></i>Ingredient -
+                Measure
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-basket-shopping me-2"></i>Ingredient -
+                Measure
+              </li class="mb-3">
+              <li class="mb-3">
+                <i class="fa-solid fa-basket-shopping me-2"></i>Ingredient -
+                Measure
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-basket-shopping me-2"></i>Ingredient -
+                Measure
+              </li>
+              <li>
+                <i class="fa-solid fa-basket-shopping me-2"></i>Ingredient -
+                Measure
+              </li>
+            </ul>
+          </div>
+          <div class="col-8">
+            <h4 class="mb-4 border-bottom pb-2">Instructions</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At suscipit qui odit, voluptatum rerum animi et? Ex voluptatibus aspernatur labore optio asperiores non laudantium illum veniam corrupti possimus. Quisquam labore nostrum quia consequuntur eveniet quasi dolores voluptatem nihil soluta ab, sed debitis ipsum, at temporibus odio omnis optio nobis harum veritatis laborum minus dolore! Minus nemo ab necessitatibus nam doloribus sit nihil natus molestias, consequuntur fuga amet, iste inventore quibusdam dolorum quod neque! Recusandae magni maxime explicabo ratione quia. Perspiciatis nihil, accusamus numquam perferendis libero fuga architecto ut nulla error fugit quod et, beatae rerum unde. Consectetur quisquam praesentium quia.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3 class="fw-bold mb-3">Recipe Video:</h3>
+              <iframe
+                width="560px"
+                height="315px"
+                src="https://www.youtube.com/embed/LIbKVpBQKJI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+          </div>
+        </div> -->
+      </div>
     </section>
   </body>
 </html>
